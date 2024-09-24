@@ -1,78 +1,56 @@
 <!doctype html>
 <html>
 <head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-DJGXLFNNQC"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-DJGXLFNNQC');
-</script>
     <title>나의 인물 - Cillian</title>
     <meta charset="utf-8">
 <style>
+    body{
+        margin:0;
+    }
     a{
         color:black;
         text-decoration: none
     }
-    .active{
-        color:red;
-    }
     h1{
         font-size: 50px;
         text-align: center;
+        border-bottom: 1px solid black;
+        margin:0;
+        padding:20px;
     }
-</style>
+    ol{
+        border-right:1px solid black;
+        width: 150px;
+        margin:0;
+        padding:20px;
+    }
+    #grid{
+        display:grid;
+        grid-template-columns: 200px 1fr;
+    }
+    #grid ol{
+        padding-left:33px
+    }
+    #grid #article{
+        padding-left: 25px;
+    }
+  </style>
 </head>
 <body>
     <h1><a href="index.html">나의 인물</a></h1>
-    <ol>
-        <li><a href="1.html" class="saw. active">Chillian Murphy</a></li>
-        <li><a href="2.html">Tony Bennet</a></li>
-        <li><a href="3.html">John Stephen Piper</a></li>
-    </ol>
-    <h2>Cillian Murphy </h1>
-    <p><strong>배우로서의 삶과 <u>사생활을 철저히 구분</u></strong> 하며 관리하는 편이다. 가족을 비롯한 본인의 사생활에 대해서는 잘 얘기하지 않는 편으로 유명하며 비연예인인 아내와 자녀들의 프라이버시 보호에 매우 철저한 편이다. 파파라치와는 거리가 먼 배우 중 한 명이다. 또한 배우는 연예인이 아닌 연기를 하는 직업인으로 생각한다고 말한 바 있다. </p>
-    <img src="family2.jpg" width="450">
-    <img src="family1.jpg" width="700">
-    <p>
-        <a href="https://en.wikipedia.org/wiki/Yvonne_McGuinness"
-    target="_blank" title="Yvonne McGuinness">아내</a>와 사이가 좋은 것으로 유명하다. 종종 인터뷰에서 <strong>연기 작업도 중요하지만 아내와 아이들과 함께하는 가정 생활을 더 중시한다고 밝혔다.</strong> 2019년 10월 GQ 매거진 인터뷰에선 자신에겐 놀라운 아내가 있다며, 아내와 아내의 이해심 없이는 배우 생활을 하지 못했을 거라고 말한 바 있다.
-</p>
-<p>
-    <div id="disqus_thread"></div>
-    <script>
-        /**
-        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-        /*
-        var disqus_config = function () {
-        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-        };
-        */
-        (function() { // DON'T EDIT BELOW THIS LINE
-        var d = document, s = d.createElement('script');
-        s.src = 'https://web1-ifaftilgkk.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-        })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-</p>
-<script type="text/javascript">
-    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-    (function(){
-    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-    s1.async=true;
-    s1.src='https://embed.tawk.to/57a72994c11fe69b0bd8fa90/default';
-    s1.charset='UTF-8';
-    s1.setAttribute('crossorigin','*');
-    s0.parentNode.insertBefore(s1,s0);
-    })();
-    </script>
-    <!--End of Tawk.to Script-->
+    <div id="grid">
+        <ol>
+            <li><a href="1.html">Chillian Murphy</a></li>
+            <li><a href="2.html">Tony Bennet</a></li>
+            <li><a href="3.html">John Stephen Piper</a></li>
+        </ol>
+        <div id="article">
+            <h2>Cillian Murphy </h2>
+            <img src="킬리언.jpg" width="700">
+            <p>
+              사생활<br>배우로서의 삶과 사생활을 철저히 구분하며 관리하는 편이다. 가족을 비롯한 본인의 사생활에 대해서는 잘 얘기하지 않는 편으로 유명하며 비연예인인 아내와 자녀들의 프라이버시 보호에 매우 철저한 편이다. 파파라치와는 거리가 먼 배우 중 한 명이다. 또한 배우는 연예인이 아닌 연기를 하는 직업인으로 생각한다고 말한 바 있다. 그동안 개인 스타일리스트가 없었고 시사회에 종종 혼자 다니기도 하며 의상도 본인 소장 옷을 입었다. 하지만 2023년부터 스타일리스트를 고용했다. 시상식과 오펜하이머 홍보활동이 많아져서 전문가의 도움을 받고 있다.
+           </p>
+            </div>
+</div>
 </body>
 </html>
